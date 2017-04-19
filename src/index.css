@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.panel {
+  margin: 40px 100px 40px 100px;
+  height: 100px;
+}
+
+.center {
+  text-align: center;
+}

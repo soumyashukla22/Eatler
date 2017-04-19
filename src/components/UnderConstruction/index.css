@@ -1,0 +1,10 @@
+.cupcake-img {
+  display: inline-block;
+  height: 160px;
+  width: 845px;
+  background: url('../../../public/cupcake.jpg');
+}
+
+.under-construction {
+  padding-top: 200px;
+}

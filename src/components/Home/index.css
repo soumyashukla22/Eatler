@@ -1,0 +1,10 @@
+.carousel {
+  height: 70vh;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.footer {
+  margin: auto;
+  text-align: center;
+}

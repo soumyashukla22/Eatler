@@ -1,0 +1,140 @@
+.top-nav {
+  background-color: #F7F6F6;
+  font-size: 30px;
+  min-height: 100vh;
+  position: fixed;
+  color: #ED62A2;
+  text-align: center;
+  -webkit-box-shadow: 4px 1px 20px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 4px 1px 20px 0px rgba(0,0,0,0.25);
+  box-shadow: 4px 1px 20px 0px rgba(0,0,0,0.25);
+}
+
+.top-nav a {
+  color: #ED62A2;
+  font-size: 18px;
+}
+
+.contact-icon {
+  line-height: 85px;
+}
+
+.menu-items {
+  list-style-type: none;
+  padding: 0px;
+}
+.menu-item {
+  line-height: 85px;
+}
+
+.nav-icon {
+  margin-right: 10px;
+}
+
+.nav-table {
+  font-size: 20px;
+  text-align: left;
+  margin: auto;
+  line-height: 40px;
+}
+
+.nav-table td:nth-child(odd){
+  text-align: right;
+}
+
+/*table, th, td {
+border: 1px solid black;
+}*/
+
+
+.nav-img {
+  font-size: 15px;
+  display: inline-block;
+  height: 70px;
+  width: 180px;
+  padding-left: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-right: 250px;
+  background: url('../../public/images/icon.png') no-repeat 50%;
+  background-size: contain;
+  border: none;
+  line-height: 60px;
+}
+
+.nav-tab {
+  font-size: 15px;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  margin: 0;
+}
+
+.nav-tab.active {
+  border-bottom: 5px solid white;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.nav-tab:hover {
+  background-color: rgba(255, 255, 255, 0.10);
+}
+
+.nav-tab span {
+  margin-left: 10px;
+}
+
+.nav-tab i {
+  opacity: 0.5;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  line-height: 45px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 0px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
