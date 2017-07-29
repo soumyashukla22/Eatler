@@ -1,0 +1,51 @@
+.outer {
+  display: table;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 180px;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 700px;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.inner input[type='radio'] {
+  margin-right: 10px;
+}
+
+.inner input[type='file'] {
+  border: 0px;
+  color: transparent;
+}
+
+.fileInput {
+  border-bottom: 4px solid #d3d3d3;
+  border-right: 4px solid #d3d3d3;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  margin-bottom: 15px;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.close-btn {
+  text-align: right;
+  margin-bottom: 10px;
+}

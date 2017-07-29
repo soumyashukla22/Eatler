@@ -1,0 +1,8 @@
+node_modules
+target
+build
+package-lock.json
+client/node_modules
+client/target
+client/build
+.idea/

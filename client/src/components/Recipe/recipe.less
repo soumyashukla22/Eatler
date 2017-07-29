@@ -1,0 +1,51 @@
+.image-container {
+  max-height: 50vh;
+  overflow: hidden;
+}
+
+.main-image {
+  width: 100%;
+  bottom: 0px;
+}
+
+.recipe-panel {
+  margin: 0 10px 0 10px;
+  padding-bottom: 50px;
+}
+
+.quantity-container {
+  text-align: right;
+  color: @primarygreen;
+  font-weight: bold;
+}
+
+.steps-header {
+  color: @primarygreen;
+  font-size: large;
+  margin: 30px 0px 20px 0px;
+}
+
+.procedure-list {
+  list-style-type: none;
+}
+
+.procedure-list ol {
+  //margin-left: 2em;
+}
+
+.procedure-list li {
+  counter-increment: count-me;
+}
+
+.procedure-list li::before {
+  content: counter(count-me) ". ";
+  display: block;
+  position: relative;
+  //max-width: 0px;
+  max-height: 0px;
+  left: -2em;
+  //top: .05em;
+  color: @primarygreen;
+  font-weight: bold;
+
+}

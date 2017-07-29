@@ -1,0 +1,36 @@
+@import './components/Nav/nav.less';
+@import './components/Content/content.less';
+@import './components/Home/home.less';
+@import "./components/Recipe/recipe.less";
+@import "./components/Common/ImageUpload.less";
+@import "./components/Common/IngredientList.less";
+
+body {
+  overflow-x: hidden;
+}
+
+#root {
+  font-family: Roboto;
+  color: @primarywhite;
+  background: @bodyblack;
+  max-width: 100vw;
+}
+
+.submit-button {
+  color: @primaryblack;
+  background: @primarywhite;
+}
+
+.submit-button:hover .submit-button:active {
+  color: fade(@primarywhite, 20%);
+}
+
+.main-panel {
+  padding-top: 10px;
+}
+
+.main-body {
+  max-width: 85vw;
+  margin-left: 15vw;
+  min-height: 100vh;
+}

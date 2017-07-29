@@ -1,0 +1,84 @@
+
+.card-container {
+  overflow: hidden;
+  background: black;
+}
+
+@animation-time: 0.5s;
+
+.card-image {
+  max-width: 100%;
+  -webkit-transition: margin-top @animation-time; /* Safari */
+  transition: margin-top @animation-time;
+}
+
+.card-image-hover {
+  margin-top: -30px;
+}
+
+.card-footer {
+  position: fixed;
+  bottom: 100px;
+  width: 100%;
+  opacity: 0;
+  height: 0px;
+  -webkit-transition: @animation-time; /* Safari */
+  transition: @animation-time;
+  box-sizing: border-box;
+}
+
+.card-footer-hover {
+  height: 100px;
+  opacity: 1;
+  bottom: 30px;
+}
+
+.card-title {
+  padding: 5px;
+  position: relative;
+  height: 100px;
+  width: 100%;
+  //background: rgba(0, 0, 10, 0.9);
+  background: rgba(0, 0, 0, 0);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.9)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.card-title span {
+  position: absolute;
+  bottom: 15px;
+}
+
+.read-more {
+  font-size: 12px;
+  color: @primarygreen;
+  height: 0px;
+  -webkit-transition: height @animation-time; /* Safari */
+  transition: height @animation-time;
+
+}
+
+.read-more-hover {
+  height: 30px;
+}
+
+.read-more-div {
+  margin: 5px;
+}
+
+.link-container a, .link-container a:hover, .link-container a:visited, .link-container a:active, .link-container a:link {
+  text-decoration: none;
+}
+
+.card-footer, .card-footer-hover {
+  color: @primarywhite;
+
+}
+
+.read-more, .read-more-hover {
+  color: @primarygreen;
+}
